@@ -1,4 +1,4 @@
 #!/bin/bash
- ls -l
- ls -na
- ls -a
+ls -l
+ls -na
+ls -a
