@@ -3,8 +3,8 @@
 
 count=0
 
-untill [ $count -lt 10 ]
+untill [ $count -eq 10 ]
 do
 	echo "Best School"
 	(( count++ ))
-doneii
+done
