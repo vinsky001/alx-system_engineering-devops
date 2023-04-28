@@ -1,6 +1,6 @@
 /*
  * File: 102-zombie.c
- * Auth:  Elvis Vinsky
+ * Auth: vinsky001
  */
 
 #include <stdio.h>
