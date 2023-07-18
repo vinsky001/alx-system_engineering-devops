@@ -62,9 +62,9 @@ BROADCAST -j RETURN
 -A ufw-not-local -j DROP
 # allow MULTICAST mDNS for service discovery (be sure the MULTICAST line above
 # is uncommented)
--A ufw-before-input -p udp -d 100.26.171.43 --dport 5353 -- ACCEPT
+-A ufw-before-input -p udp -d 100.26.233.82 --dport 5353 -- ACCEPT
 # allow MULTICAST UPnP for service discovery (be sure the MULTICAST line above
 # is uncommented)
--A ufw-before-input -p udp -d 54.146.57.78 --dport 1900 -j ACCEPT
+-A ufw-before-input -p udp -d 52.91.133.147 --dport 1900 -j ACCEPT
 # don't delete the 'COMMIT' line or these rules won't be processed
 COMMIT
