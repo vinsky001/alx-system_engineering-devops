@@ -19,4 +19,4 @@ if __name__ == '__main__':
 
     line = []
     for info in todos:
-        info.append({'task': info.get('title'),  })
+        info.append({'task': info.get('title'),})
