@@ -9,7 +9,7 @@ import requests
 def recurse(subreddit, hot_list=[], count=0, next_page=None):
     """return list containing titles of all hot articles"""
     headers = {
-        "User-Agent": "0x16. API_advanced-e_kiminza"
+        "User-Agent": "0x16. API_advanced-vinsky001"
     }
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     params = {"limit": 50, "next_page": next_page, "count": count}
